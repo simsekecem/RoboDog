@@ -113,4 +113,4 @@ HC-SR04 sensörü ile her 100 ms'de bir yapılan ölçüm sonucuna göre:
 | `ISR(TIMER2_COMPA_vect)` | Her 1 ms'de tetiklenen donanım kesmesidir; 100 ms'de bir çevre kontrol bayrağını açar. |
 | `clapISR1()` / `clapISR2()` | Sol ve sağ ses sensörlerinden gelen sinyalleri 300 ms debounce ile sayar. |
 | `checkClapEvaluation()` | Alkış sayısına göre pati kaldırma veya oturma hareketini tetikler. |
-| `sitPosture()` / `resetPosture()` | Robotu oturma pozisyonuna veya 90 derece dik duruş konumuna getirir. |
+| `sitPosture()` / `resetPosture()` | Robotu oturma pozisyonuna veya 90 derece dik duruş konumuna getirir. | 
